@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Journey to Independence &middot; Design Championship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-desktop">
+            <a href="index.html" class="nav-desktop-brand nav-desktop-item nav-desktop-link">Home</a>
+            <div class="hover-all">
+                <a href="#" class="nav-desktop-item nav-desktop-link">Articles</a>
+                <div class="hover-content">
+                    <a href="1857.html" class="hover-link">Revolt of 1857</a>
+                    <br>
+                    <a href="dandi.html" class="hover-link">Dandi March</a>
+                    <br>
+                    <a href="inaAndInc.html" class="hover-link">INA & INC</a>
+                    <br>
+                    <a href="quit.html" class="hover-link">Quit India</a>
+                    <br>
+                    <a href="independence.html" class="hover-link">Independence</a>
+                </div>
+            </div>
+            <a href="people.html" class="nav-desktop-item nav-desktop-link">Search for freedom fighters</a>
+            <a href="map.html" class="nav-desktop-item nav-desktop-link">Map reference</a>
+        </div>
+    </header>
+    <marquee direction="right">
+        <h1 class="heading">India's independence &rarr;</h1>
+    </marquee>
+    <br><br>
+
+    <div class="col">
+        <div class="card" style="background-image: url('flag.png');">
+            <h2 class="heading">Our articles</h2>
+            <div class="col">
+                <button class="btn" onclick="redirect('1857.html')">Revolt of 1857</button>
+                <br><br>
+                <button class="btn" onclick="redirect('dandi.html')">Dandi March</button>
+                <br><br>
+                <button class="btn" onclick="redirect('inaAndInc.html')">INA & INC</button>
+                <br><br>
+                <button class="btn" onclick="redirect('quit.html')">Quit India</button>
+                <br><br>
+                <button class="btn" onclick="redirect('independence.html')">Independence</button>
+            </div>
+        </div>
+        <br><br>
+        <div class="card">
+            <h2 class="heading">Quiz time!</h2>
+            <div id="questions">
+            <input type="text" id="q1" class="form" placeholder="When did we get independence (year)?">
+            <br><br>
+            <input type="text" name="" id="q2" class="form" placeholder="What is Gandhiji'ss full name?">
+            <br><br>
+            <input type="text" name="" id="q3" class="form" placeholder="Who was the last Mughal emperor?">
+            <br><br>
+            <button class="btn" onclick="submit()">Submit answers</button>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>

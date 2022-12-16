@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Journey to Independence &middot; Design Championship</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://nispar2009.github.io/spectrum_stylr/Spectrum.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav-desktop">
+            <a href="index.html" class="nav-desktop-brand nav-desktop-item nav-desktop-link">Home</a>
+            <div class="hover-all">
+                <a href="#" class="nav-desktop-item nav-desktop-link">Articles</a>
+                <div class="hover-content">
+                    <a href="1857.html" class="hover-link">Revolt of 1857</a>
+                    <br>
+                    <a href="dandi.html" class="hover-link">Dandi March</a>
+                    <br>
+                    <a href="inaAndInc.html" class="hover-link">INA & INC</a>
+                    <br>
+                    <a href="quit.html" class="hover-link">Quit India</a>
+                    <br>
+                    <a href="independence.html" class="hover-link">Independence</a>
+                </div>
+            </div>
+            <a href="people.html" class="nav-desktop-item nav-desktop-link">Search for freedom fighters</a>
+            <a href="map.html" class="nav-desktop-item nav-desktop-link">Map reference</a>
+        </div>
+    </header>
+    <h1 class="heading">Search for people</h1>
+
+    <input type="text" id="person" placeholder="Enter the name of the person..." class="form" onkeyup="updatePeople(getInput('person'))">
+
+    <div id="people"></div>
+</body>
+
+</html>
