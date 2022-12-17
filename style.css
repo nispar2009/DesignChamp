@@ -3,7 +3,7 @@
 body {
     font-family: Caveat;
     margin: 0;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .btn {
@@ -291,3 +291,6 @@ input[type=checkbox].form {
 .card:hover {
     margin-top: -50px;
 }
+
+.map-region:target {display: inline-block;}
+.map-region {display: none;}
