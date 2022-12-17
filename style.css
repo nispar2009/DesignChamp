@@ -292,5 +292,10 @@ input[type=checkbox].form {
     margin-top: -50px;
 }
 
-.map-region:target {display: inline-block;}
-.map-region {display: none;}
+.map-region:target {
+    display: inline-block;
+}
+
+.map-region {
+    display: none;
+}
