@@ -70,3 +70,17 @@ updatePeople = person => {
 
     setValue("people", code)
 }
+
+submit = () => {
+    let correct =  0
+    if (getInput("q1") == 1947) {
+        correct ++
+    }
+    if ((getInput("q2")).toLowerCase() == "mohandas karamchand gandhi") {
+        correct ++
+    }
+    if ((getInput("q3")).toLowerCase() == "bahadur shah zafar") {
+        correct ++
+    }
+    setValue("questions", "<h1 class='heading'>You answered " + correct + "/3 right!")
+}
