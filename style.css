@@ -102,6 +102,8 @@ h2.heading {
     outline: none;
     background-color: lightgrey;
     border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
 }
 
 input.form {
@@ -291,7 +293,9 @@ input[type=checkbox].form {
 }
 
 .card:hover {
-    margin-top: -40px;
+    margin-top: -50px;
+    height: 550px;
+    padding-top: 75px;
 }
 
 .map-region:target {
