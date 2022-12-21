@@ -107,7 +107,7 @@ h2.heading {
 
 input.form {
     height: 50px;
-    width: 300px;
+    width: 500px;
     font-size: large;
 }
 
@@ -307,4 +307,12 @@ input[type=checkbox].form {
 
 .map-region {
     display: none;
+}
+
+.question {
+    display: none;
+}
+
+.question:target {
+    display: block;
 }

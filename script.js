@@ -101,5 +101,9 @@ submit = () => {
     if ((getInput("q3")).toLowerCase() == "bahadur shah zafar") {
         correct ++
     }
-    setValue("questions", "<h1 class='heading'>You answered " + correct + "/3<br>right!")
+    if (correct == 3) {
+        document.getElementById("ship").src = "win.png"
+    } else {
+        document.getElementById("ship").src = "lose.png"
+    }
 }

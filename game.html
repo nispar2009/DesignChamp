@@ -37,7 +37,7 @@
             <a href="index.html" class="nav-mobile-brand">Home</a>
             <div class="nav-mobile-right">
                 <button class="btn" onclick="ShowContent()">...</button>
-                <div class="nav-mobile-content" id="nav-mobile-content">
+                <<div class="nav-mobile-content" id="nav-mobile-content">
                     <a href="index.html" class="nav-mobile-link">Home</a>
                     <a href="1857.html" class="nav-mobile-link">Revolt of 1857</a>
                     <a href="dandi.html" class="nav-mobile-link">Dandi March</a>
@@ -51,34 +51,28 @@
             </div>
         </div>
     </header>
-    <marquee direction="right">
-        <h1 class="heading">India's independence &rarr;</h1>
+    <h1 class="heading">Fight the war for independence!</h1>
+    <h2 class="heading">Answer the questions after clicking on the cannons' barrels. Click on the flag to submit.</h2>
 
-    </marquee>
     <br><br>
 
-    <div class="card">
-        <h2 class="heading">Our articles</h2>
-        <button class="btn" onclick="redirect('1857.html')">Revolt of 1857</button>
-        <button class="btn" onclick="redirect('dandi.html')">Dandi March</button><br><br>
-        <button class="btn" onclick="redirect('inaAndInc.html')">INA & INC</button>
-        <button class="btn" onclick="redirect('quit.html')">Quit India</button>
-        <button class="btn" onclick="redirect('independence.html')">Independence</button>
-    </div>
+    <img src="cannon.png" alt="India" usemap="#play">
+    <map name="play">
+        <area shape="circle" coords="125, 110, 25" href="#q1" alt="Question 1">
+        <area shape="circle" coords="300, 100, 25" href="#q2" alt="Question 2">
+        <area shape="circle" coords="460, 100, 25" href="#q3" alt="Question 3">
+        <area shape="rect" coords="170, 25, 225, 75" href="#ans" alt="Answer">
+    </map>
+    <img src="ship.png" alt="Britain" id="ship">
+
     <br><br>
-    <!-- <div class="card">
-            <h2 class="heading">Quiz time!</h2>
-            <div id="questions">
-                <input type="number" min="1900" max="2000" id="q1" class="form"
-                    placeholder="When did we get independence (year)?">
-                <br><br>
-                <input type="text" name="" id="q2" class="form" placeholder="What is Gandhiji's full name?">
-                <br><br>
-                <input type="text" name="" id="q3" class="form" placeholder="Who was the last Mughal emperor?">
-                <br><br>
-                <button class="btn" onclick="submit()">Submit answers</button>
-            </div>
-        </div> -->
+
+    <input type="number" min="1900" max="2000" id="q1" class="form question" placeholder="When did we get independence (year)?">
+    <input type="text" name="" id="q2" class="form question" placeholder="What is Gandhiji's full name?">
+    <input type="text" name="" id="q3" class="form question" placeholder="Who was the last Mughal emperor?">
+    <button class="btn question" id="ans" onclick="submit()">Submit answers</button>
+
+    <br><br>
 
 
     <footer class="footer" style="text-align: center;">
