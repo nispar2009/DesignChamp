@@ -101,5 +101,5 @@ submit = () => {
     if ((getInput("q3")).toLowerCase() == "bahadur shah zafar") {
         correct ++
     }
-    setValue("questions", "<h1 class='heading'>You answered " + correct + "/3 right!")
+    setValue("questions", "<h1 class='heading'>You answered " + correct + "/3<br>right!")
 }

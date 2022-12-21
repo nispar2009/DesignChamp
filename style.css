@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Caveat");
-
 body {
-    font-family: Caveat;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     font-size: 25px;
 }
@@ -60,6 +58,7 @@ h2.heading {
 
 .footer .footer-link {
     color: #878787;
+    text-decoration: none;
 }
 
 .footer .footer-link:hover {
@@ -189,8 +188,7 @@ select.form {
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 50px;
-    /* right: 0;
-*/
+    z-index: 5;
     background-color: #ff7b00;
 }
 
@@ -237,6 +235,7 @@ select.form {
 .hover-all .hover-content .hover-link {
     color: white;
     font-display: block;
+    text-decoration: none;
 }
 
 table.table {
@@ -276,6 +275,7 @@ input[type=checkbox].form {
 
 .link {
     color: #878787;
+    text-decoration: none;
 }
 
 .link:hover {
@@ -291,6 +291,7 @@ input[type=checkbox].form {
     width: 500px;
     padding-top: 25px;
     box-sizing: border-box;
+    margin-bottom: 100px;
 }
 
 .card:hover {
