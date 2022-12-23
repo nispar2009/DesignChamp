@@ -7,6 +7,19 @@ body {
     font-family: Raleway;
 }
 
+#bg-img {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+}
+
+#blank {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
 .btn {
     padding: 15px 40px;
     cursor: pointer;
