@@ -104,9 +104,9 @@ submit = () => {
 
     if (correct == 3) {
         document.getElementById("ship").src = "win.png"
-        setValue("result", "You win! :)")
+        setValue("result", "You win!")
     } else {
         document.getElementById("ship").src = "lose.png"
-        setValue("result", "You lose! :(")
+        setValue("result", "You lose!")
     }
 }
